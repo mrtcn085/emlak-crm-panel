@@ -1,0 +1,4 @@
+1) panel/config.js dosyasını Not Defteri ile aç.
+2) Supabase Project URL ve Publishable/Anon Key bilgilerini yaz.
+3) Service role / secret key yazma.
+4) Dosyayı kaydet.

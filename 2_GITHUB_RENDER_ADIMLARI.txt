@@ -1,0 +1,36 @@
+GITHUB'A YUKLEME
+1) GitHub'a gir: New repository.
+2) Repository adı: emlak-crm-panel
+3) Public veya Private seçebilirsin.
+4) Create repository.
+5) Add file > Upload files.
+6) Bu klasörün içindeki tüm dosya/klasörleri yükle:
+   - panel
+   - extension
+   - render.yaml
+   - README.txt
+   - diğer txt dosyaları
+7) Commit changes.
+
+RENDER'A YAYINLAMA
+1) Render'a gir.
+2) New + > Static Site.
+3) GitHub reposunu bağla.
+4) Ayarlar:
+   Name: emlak-crm-panel
+   Branch: main
+   Build Command: boş bırak
+   Publish Directory: panel
+5) Deploy Static Site de.
+6) Render sana onrender.com linki verecek.
+
+SUPABASE AUTH AYARI
+Giriş/kayıt yönlendirmesinde sorun yaşarsan:
+Supabase > Authentication > URL Configuration
+Site URL: Render linkin
+Additional Redirect URLs: Render linkin
+
+CHROME EKLENTİSİ
+Chrome'da extension klasörünü yükle:
+chrome://extensions > Developer mode > Load unpacked > extension
+Eklenti içinde Supabase URL + Key ile giriş yap.

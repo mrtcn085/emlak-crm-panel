@@ -1,0 +1,14 @@
+RENDER STATIC SITE KISA YOL
+
+1. panel klasörünü GitHub reposuna yükle.
+2. Render hesabına gir.
+3. New > Static Site seç.
+4. GitHub reposunu bağla.
+5. Publish Directory olarak panel yaz.
+6. Build Command boş kalabilir.
+7. Deploy et.
+
+Panel adresi şöyle olur:
+https://senin-proje-adin.onrender.com
+
+Supabase Authentication > URL Configuration kısmına bu adresi Site URL olarak eklemek iyi olur.
